@@ -45,12 +45,24 @@ $(document).ready(function () {
             clearTimeout(timerId);
         });
 
+        if (timeLeft == 0 && (currentQ == all.length - 1)) {
+            check();
+            currentQ++;
+            $jumbotron.hide();
+            $result.html("You correctly answered " + correctA + " out of " + currentQ + " questions").hide();
+            $result.fadeIn(1500);
+        }
+            
+        
         if (timeLeft == 0) {
             clearTimeout(timerId);
             // timeLeft = 30;
+            check();
+            currentQ++;
             renderQuiz();
         }
-       
+
+              
         else {
             clearTimeout(timerId);
             var timerId = setTimeout(timer, 1000);
