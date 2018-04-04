@@ -1,11 +1,14 @@
+
+/* Background Image */
 .container {
     background-image: url("forest.jpg")
 }
+
 body {
     background-color:rgb(196, 153, 73);
     font-family: 'Chicle', cursive;
 }
-
+/* Title styles */
 #title {
     font-size: 150px;
     color:rgb(196, 153, 73);
@@ -18,6 +21,7 @@ body {
  #againbutton {
      margin-top: 30px;
  }
+ /* Jumbotron which holds the questions */
  .jumbotron {
      background-color: rgb(49, 49, 49);
      width: 50%;
@@ -30,45 +34,75 @@ body {
  #footer {
      margin: 20px;
  }
- #whosings {
-     font-size: 30px;
-     text-align: center;
- }
+/* Timer text */
 
  #timeR {
      font-size: 35px;
      text-align: center;
  }
+ /* Start Game Button Style */
  #start {
-     text-align: center;
-     background-color:rgb(196, 153, 73);
-     color: white;
-     margin-left: 362px;
+    border-radius: 6px;
+    text-align: center;
+    background-color:rgb(196, 153, 73);
+    color: white;
+    margin-left: 362px;
     font-size: 100px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  }
+ /* End-of-Game Result Style */
  #result {
    
-    background-color: maroon;
+    background-color: rgb(196, 153, 73);
     font-size: 50px;
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
     
  }
+
+ /* start Bird Image (hummingbird) */
  #birdstart {
-     height: 500px;
-     width: 500px;
-     margin-left: 304px;
+    height: 500px;
+    width: 500px;
+    margin-left: 304px;
     margin-top: 45px;
+    border-radius: 25px;
  }
  #question {
-     font-size: 30px;
+    font-size: 35px;
  }
 
  #form {
-     font-size: 20px;
+    font-size: 20px;
  }
+ /* Next Button */
  #next {
-     font-size: 50px;
-     background-color: rgb(196, 153, 73);
-     margin-left: 100px;
+    border-radius: 6px;
+    font-size: 50px;
+    background-color: rgb(196, 153, 73);
+    margin-left: 100px;
  }
+ /* End-of-Game Bird Image (Thrush) */
+ #birdend {
+    height: 300px;
+    width: 469px;
+    margin-left: 304px;
+    margin-top: 45px;
+    border-radius: 25px;
+ }
+
+ /* Radio Button Styles */
+ label {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    }
+input[type=radio]:checked ~ label{
+    color: rgb(196, 153, 73);
+    font-size: 35px;
+      }
+input[type="radio"] {
+    margin-right: 12px;
+    transform: scale(1.7); 
+      }

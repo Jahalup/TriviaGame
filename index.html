@@ -10,47 +10,41 @@
 
 </head>
 <body>
+    <!-- Container for Bootstrap -->
     <div class="container">
         <div class ="row">
             <div class="col 12">
                 <h1 id="title">Bird Trivia</h1>
             </div>
         </div>
+    <!-- The Start Game Button and image-->
             <div class="start">
                 <button id="start">Start Game</button>
                 <img id ="birdstart" src = "assets/images/hummingbird.jpg">
             </div>
 
-
-            <div class="well jumbotron" id="wholeTest">
-                    <!-- <h2 class="instructions">Listen to the sound.</h2> -->
-                    <h3 id="question"></h3>
-                    <br>
-                    <form id="form"></form>
+    <!-- The jumbotron to hold the questions -->
+            <div class="well jumbotron" id="wholeTest">     
+                <h3 id="question"></h3>
+                <br>
+                <form id="form"></form>
+    <!-- Next question button -->
                     <button id="next">Next Question</button>
-                   <br><br>
+                <br><br>
                    
-                    <div id="time"><p id = "timeR"></p></div>
-                  </div>
-                  <div id="result"></div>
-
-                  <div class ="row">
-                        <div class="col 12">
-                            <p id="footer"></p>
-                        </div>
+                <div id="time"><p id = "timeR"></p>
+                </div>
+            </div>
+                <div id="result">                   
+                </div>
+                <img id ="birdend" src = "assets/images/thrush.jpg">
+                <div class ="row">
+                    <div class="col 12">
+                        <p id="footer"></p>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="assets/javascript/app.js"></script> 
-    </body>
-    </html>
+                </div>
+    </div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/app.js"></script> 
+</body>
+</html>
