@@ -1,0 +1,53 @@
+.container {
+    background-image: url("forest.jpg")
+}
+body {
+    background-color:rgb(196, 153, 73);
+}
+
+#title {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.instructions {
+    text-align: center;
+}
+ #againbutton {
+     margin-top: 30px;
+ }
+ .jumbotron {
+     background-color: rgb(49, 49, 49);
+     width: 50%;
+     margin: auto;
+     color: white;
+     border: solid;
+     border-color: white;
+     border-width: 3px;
+ }
+ #footer {
+     margin: 20px;
+ }
+ #whosings {
+     font-size: 30px;
+     text-align: center;
+ }
+
+ #timeR {
+     font-size: 30px;
+     text-align: left;
+ }
+ #start {
+     text-align: center;
+     background-color: maroon;
+     color: white;
+     margin-left: 300px;
+    font-size: 100px;
+ }
+ #result {
+   
+    background-color: maroon;
+    font-size: 50px;
+    color: white;
+    
+ }
