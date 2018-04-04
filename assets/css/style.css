@@ -3,12 +3,14 @@
 }
 body {
     background-color:rgb(196, 153, 73);
+    font-family: 'Chicle', cursive;
 }
 
 #title {
-    font-size: 100px;
-    color: white;
+    font-size: 150px;
+    color:rgb(196, 153, 73);
     text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .instructions {
     text-align: center;
@@ -34,15 +36,16 @@ body {
  }
 
  #timeR {
-     font-size: 30px;
-     text-align: left;
+     font-size: 35px;
+     text-align: center;
  }
  #start {
      text-align: center;
-     background-color: maroon;
+     background-color:rgb(196, 153, 73);
      color: white;
-     margin-left: 300px;
+     margin-left: 362px;
     font-size: 100px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
  }
  #result {
    
@@ -50,4 +53,22 @@ body {
     font-size: 50px;
     color: white;
     
+ }
+ #birdstart {
+     height: 500px;
+     width: 500px;
+     margin-left: 304px;
+    margin-top: 45px;
+ }
+ #question {
+     font-size: 30px;
+ }
+
+ #form {
+     font-size: 20px;
+ }
+ #next {
+     font-size: 50px;
+     background-color: rgb(196, 153, 73);
+     margin-left: 100px;
  }
